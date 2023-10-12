@@ -1,5 +1,5 @@
 N = int(input())
-num = list(map(int,input().split()))
+A = list(map(int,input().split()))
 
-ans = sum(num) - min(num)
+ans = sum(A) - min(A)
 print(ans)
